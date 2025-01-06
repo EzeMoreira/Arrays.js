@@ -34,7 +34,9 @@ document.write("<br><br>");
 
         // Metodos para utilizar en los Arrays
 
-// Añadir o eliminar 
+                // Añadir o eliminar 
+
+
 // .unshift() y .shift() son métodos que actúan al inicio del array.
 
 const elements = ["a", "b", "c", "d", "e"]
@@ -46,3 +48,28 @@ document.write("<br><br>");
 const elementos = ["Jorge", "Matias", "Lucas"]
 elementos.shift(); //elimina el primer elemento de un array y devuelve una nueva longitud del array
 document.write(elementos)
+
+document.write("<br><br>");
+
+const elements2 = ["a", "b", "c", "d", "e"]
+elements2.push("XYZ"); //agrega un elemento al array al final de la lista 
+document.write(elements2)
+
+document.write("<br><br>");
+
+const elements3 = ["Lucas", "Matias", "Jorge"]
+elements3.pop(); //elimina el ultimo elemento de un array y lo devuelve 
+document.write(elements3)
+
+
+document.write("<br><br>");
+
+
+            // Metodo de Reversa
+
+const reversa = [1, 2, 3, 4, 5]
+reversa.reverse() // invierte el orden de los elementos de un array
+document.write(reversa)
+
+document.write("<br><br>");
+
