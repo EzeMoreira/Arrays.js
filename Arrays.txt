@@ -1,0 +1,47 @@
+									ARRAYS
+
+Conocido como "Listado de items", arreglo, orden, formación, entre tantos nombres.
+Es una colección o agrupación de elementos en una misma variable, cada uno de ellos ubicado
+en una posición que ocupa el array.
+Se escribe la lista entre comillas simples o dobles ( "" , '') y se encierra en corchetes [].
+Al contrario de otros lenguajes de programación, Javascript permite que se puedan realizar arrays de tipo mixto,
+es decir que los elementos dentro del arreglo pueden variar de tipo (String, Number, Boolean).
+En Javascript existe un tipo de dato llamado "OBJETO" los Object son una representación donde podemos almacenar distintos tipos de datos, 
+Ejemplo, nombre, edad, altura, etc.
+Los objetos deben ser creados entre {}.
+
+
+								Arrays asociativos 
+
+También son arrays que tiene elementos asociados, es decir mas de una característica que lo describe 
+de la cual podemos llamarla sin necesidad de involucrar las otras características que ya posee.
+
+
+								EL OPERADOR []
+
+Si queremos acceder a un elemento en específico del array, utilizamos el operador [] para poder acceder a la posición del elemento que queremos
+recuperar del array.
+Las posiciones empiezan a contar desde 0 y que si intentamos acceder a una posición que no existe (mayor del tamaño del array) nos va a devolver UNDEFINED.
+Además de permitirnos acceder a un elemento del array el operador nos permite modificar un elemento en específico del array utilizando "Metodos".
+
+
+							ACCESO A ELEMENTOS DEL ARRAY 
+
+Para conocer el número de elementos que tiene un array utilizamos la propiedad " .length " que nos devuelve el número de elementos existentes en un array.
+
+
+						AÑADIR O ELIMINAR ELEMENTOS DEL ARRAY
+
+Existen diversas formas de añadir elementos a un array ya existente, pero en este caso con los siguientes métodos de ejemplo
+estaríamos mutando el array que ya tenemos.
+En los Arrays Javascript proporciona métodos tanto para colocar o eliminar elementos al inicio o al final del array.
+
+.unshift() y .shift() son métodos que actúan al inicio del array.
+.push () y .pop() son métodos que actúan al final del array.
+
+Otros métodos a tener en cuenta también son:
+
+.valueOf() Este metodo retorna el valor primitivo de un objeto string.
+.reverse() Invierte el orden de los elementos de un array.
+.sort() Ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado, es decir ordena alfabeticamente o de menor a mayor en terminos de números. 
+.splice() Cambia el contenido de un array elimando elementos existentes o agregando nuevos elementos.
