@@ -73,3 +73,54 @@ document.write(reversa)
 
 document.write("<br><br>");
 
+
+            // Metodo sort 
+
+const ordenar = [2, 5, 7, 0, 3, 9]
+ordenar.sort() //ordena los elementos de un arreglo y devuelve el arreglo ordenado
+document.write(ordenar)
+
+document.write("<br><br>");
+
+
+            // Metodo splice
+
+let texto = ["abecedario", "manzana", "zoologico", "bebes", "tropical"];
+document.write(texto + "<br>"); 
+texto.splice(1,3,"Roberto", "Gustavo", "Maximo")    
+document.write(texto)
+//El primer parametro es el start es decir donde arrancamos (la posicion)  
+//el 2° parametro es la cantidad de elementos que eliminamos
+//Y como 3° parametro agregamos lo que queremos sumar o reemplazar en caso de que algo se encuentre ahi
+
+
+document.write("<br><br>");
+
+
+
+            // Arrays asociativos 
+
+// Tambien son arrays que tiene elementos asociados, es decir mas de una caracteristica que lo describe 
+// de la cual podemos llamarla sin necesidad de involucrar las otras caracteristicas que ya posee, ej:
+
+// 1° Primero colocamos nombre a la variable, y luego el valor de todos los elementos que puede tener, en este caso 
+// los componentes de una pc.
+
+let computadora = {
+        nombre: "ezequiel",
+        procesador: "Intel Core I7",
+        ram: "8Gb",
+        memoria: "1TB"
+};
+
+let nombre = computadora["nombre"];
+let procesador = computadora["Intel Core I7"];
+let ram = computadora["8Gb"];
+let memoria = computadora["1TB"];
+
+laFraseEs = `el nombre de la computadora es: ${nombre}<br>
+                y su procesador es: ${procesador} <br>
+                y su memorira ram es: ${ram} <br>
+                la memora que tiene es de ${memoria} <br>`;
+
+document.write(laFraseEs);
